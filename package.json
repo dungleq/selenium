@@ -9,7 +9,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "wdio": "^1.0.3"
+    "mocha": "^5.0.5",
+    "wdio": "^1.0.3",
+    "webdriverio": "^4.12.0"
   },
   "devDependencies": {
     "wdio-allure-reporter": "^0.6.0",
