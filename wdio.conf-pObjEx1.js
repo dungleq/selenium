@@ -5,11 +5,11 @@ exports.config = {
     exclude: [
     ],
     capabilities: [{
-        browserName: 'firefox'
+        browserName: 'chrome'
     }],
     sync: true,
     // Level of logging verbosity: silent | verbose | command | data | result | error
-    logLevel: 'silent',
+    logLevel: 'verbose',
     coloredLogs: true,
     bail: 0,
     screenshotPath: './errorShots/',
@@ -22,4 +22,7 @@ exports.config = {
     mochaOpts: {
         ui: 'bdd'
     },
+    port:'9515',
+    path:'/',
+    services: 'chromedriver'
 };

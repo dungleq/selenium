@@ -3,7 +3,7 @@ var page = require('./page');
 
 var WebPage = Object.create(page, {
 
-   form: { get: function () { return browser.element('#search-form'); } },
+  // form: { get: function () { return browser.element('#search-form'); } },
 
 
 		getFirstname: { value: function () {
@@ -39,7 +39,8 @@ var WebPage = Object.create(page, {
     } },
 
     submit: { value: function() {
-        this.form.submitForm();
+      //  this.form.submitForm();
+      browser.submitForm("#search-form");
     } }
 });
 module.exports = WebPage;

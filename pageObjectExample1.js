@@ -7,7 +7,7 @@
 // wait for results on results page
 // verify results
 
-// Page objects are used to provide another layer of abstraction between 
+// Page objects are used to provide another layer of abstraction between
 // the page information and the actual tests.
 
 
@@ -17,7 +17,7 @@
 // Updated to support version >4 of webdriverio
 
 // required libraries
-var webdriverio = require('webdriverio'),
+var webdriverio = require('webdriverio');
   should = require('should');
 
 var WebPage = require('./pageobjects/web-page');

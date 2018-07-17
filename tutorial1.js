@@ -18,7 +18,7 @@ var webdriverio = require('webdriverio'),
 describe('Title Test for Web Driver IO - Tutorial Test Page Website', function() {
 
   // set timeout to 10 seconds
-	this.timeout(10000);
+	this.timeout(100000);
   var driver = {};
 
   // hook to run before tests
