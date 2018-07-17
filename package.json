@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "web-driver-io-tutorial",
   "version": "1.0.0",
   "description": "Web Driver IO Tutorial\r ======================",
@@ -26,4 +27,33 @@
     "url": "https://github.com/dungleq/selenium/issues"
   },
   "homepage": "https://github.com/dungleq/selenium#readme"
+=======
+  "name": "selenium",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mocha": "^5.0.5",
+    "wdio": "^1.0.3",
+    "webdriverio": "^4.12.0"
+  },
+  "devDependencies": {
+    "wdio-allure-reporter": "^0.6.0",
+    "wdio-chromedriver-service": "^0.1.2",
+    "wdio-concise-reporter": "^0.1.2",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-json-reporter": "^0.3.1",
+    "wdio-junit-reporter": "^0.4.2",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-mochawesome-reporter": "^1.3.0",
+    "wdio-spec-reporter": "^0.1.4",
+    "wdio-teamcity-reporter": "^1.1.1",
+    "wdio-testrail-reporter": "^1.1.5"
+  }
+>>>>>>> 40a5d6b0f5a9d1572d5f1eb314e8faff2d19048b
 }

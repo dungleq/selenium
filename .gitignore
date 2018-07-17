@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 node_modules
 npm-debug.log
 logs
 working
 screenshots/**
+=======
+node_modules/
+test/node_modules/
+>>>>>>> 40a5d6b0f5a9d1572d5f1eb314e8faff2d19048b
